@@ -1,0 +1,29 @@
+Trabalho Inteligência Computacional (GBC073)
+Jonathan Moreira Barreiros - 12421BCC034
+Kaike de Morais Carvalho - 12421BCC051
+
+TEMA: 
+Inteligência Computacional Aplicada à Predição de Resultados de Partidas do Campeonato Brasileiro de Futebol
+
+INTRODUÇÃO:
+A vasta disponibilidade de dados na atualidade tem possibilitado o desenvolvimento de projetos computacionais direcionados à análise e previsão aplicados ao contexto desses dados. Dessa forma, o futebol se qualifica como um cenário favorável para a condução de tais projetos, levando em consideração os conjuntos de dados históricos de partidas disponíveis.
+Esse trabalho propõe utilizar as informações relacionadas ao desempenho das equipes participantes do Campeonato Brasileiro para treinar uma Rede Neural Artificial do tipo Multilayer Perceptron para classificar o resultado de partidas do Campeonato Brasileiro de Futebol a partir de características históricas dos times participantes.
+
+
+IDEIA A RESOLVER (PROBLEMA):
+O resultado de uma partida de futebol é influenciado por diversos fatores que não se restringem à posição na tabela das equipes ou número de vitórias de cada uma, como também resultados recentes, número médio de gols marcados e sofridos, aproveitamento e desempenho como mandante ou visitante.
+Dado o histórico de desempenho de duas equipes do Campeonato Brasileiro antes de uma determinada partida, esse trabalho busca saber é possível utilizar uma Rede Neural Multilayer Perceptron para classificar o resultado da partida entre vitória do mandante, empate ou vitória do visitante.
+
+
+OBJETIVO:
+Esse projeto busca desenvolver, treinar e validar uma Rede Neural Artificial do tipo Multilayer Perceptron (MLP) capaz de classificar os resultados de partidas do Campeonato Brasileiro de Futebol em três categorias: vitória do mandante, empate ou vitória do visitante.
+O modelo receberá como entrada características relacionadas ao desempenho histórico das duas equipes e ao contexto da partida, buscando identificar padrões que permitam classificar o resultado de partidas ainda não observadas pelo modelo, utilizadas como dados de teste.
+
+
+METODOLOGIA BÁSICA:
+- Utilização de um conjunto de dados aberto contendo partidas históricas do Campeonato Brasileiro Série A, contendo dados estatísticos por partida relacionados ao desempenho de cada equipe.
+- Definição das features do dataset capazes de direcionar o treinamento para realizar a classificação multiclasse.
+- Aplicação de técnicas de pré-processamento para tratamento de valores nulos, normalização de dados numéricos e construção das características históricas.
+- Separação do conjunto de dados entre treinamento e teste
+- Treinamento da rede utilizando funções de ativação e otimizações ensinadas ao longo da disciplina.
+- Avaliação do desempenho da rede seguindo métricas adequadas para classificação multiclasse, como acurácia, precisão, recall, f1-score e matriz de confusão.
